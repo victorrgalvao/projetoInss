@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Salário</title>
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="shortcut icon" href="./src/fav-icon/Calculator_30001.ico" type="image/x-icon">
+    <script src="./src/scripts/script.js" defer></script>
+</head>
+<body>
+    
+   <div class="form">
+    <h1>Calculadora de Salário</h1>
+    <div style="display: flex; flex-direction: column; margin-bottom: 30px;">
+     <label for="salarioBruto">Salário Bruto:</label>
+     <input type="number" id="salarioBruto" placeholder="Digite o salário bruto"><br>
+    
+     <label for="nDependentes">Numero de dependentes:</label>
+     <input type="number" id="nDependentes" placeholder="Digite o numero de dependentes"><br>
+ 
+    </div>
+     <button id="calcularINSS">Calcular INSS</button>
+     <p>INSS a ser pago: <span id="resultadoINSS"></span></p>
+ 
+     <button id="calcularIRPF">Calcular IRPF</button>
+     <p>IRPF a ser pago: <span id="resultadoIRPF"></span></p>
+ 
+     <button id="calcularSalarioLiquido">Calcular Salário Líquido</button>
+     <p>Salário Líquido: <span id="resultadoSalarioLiquido"></span></p>
+   </div>
+ 
+     <script src="./src/scripts/script.js"></script> 
+</body>
+</html>
